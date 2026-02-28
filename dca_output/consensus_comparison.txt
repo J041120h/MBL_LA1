@@ -1,0 +1,118 @@
+DCA + Consensus Pipeline Results
+Input: /Users/harry/Desktop/MBL/LA1/Potts_analysis_Sternke_Tripp_Barrick-main/cSN1_mafft_gapStrip.txt
+Reference: 1STN:A|PDBID|CHAIN|SEQUENCE
+Alignment: 8110 seqs (unique: 8109), length 149, q=20
+B_eff: 5102.17
+lambda_J: 0.01  reweight_threshold: 0.2
+
+============================================================
+REFERENCE (1STN, 149 residues)
+============================================================
+ATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRKSEAQAKKEKLNIWSEDNADSGQ
+
+============================================================
+CONSENSUS WITHOUT DCA (frequency, reference-guided, 149 residues)
+============================================================
+RRKEEQRGKLEAKVVRVVDGDTLRVTFDGRKERVRLAGIDAPETARPRTEVQPYGEEAREFLRKLLPAGKEVTVEFDVEERRDRYGRLLATVYLDGKLVNEELVREGLARVAYVYPPNVKYLDELRAAEAEAKAARRGLWSDKPEAKQE
+
+============================================================
+CONSENSUS WITH DCA (Potts energy, reference-guided, 149 residues)
+============================================================
+EKSTEQAAGSEGVVEHVRSGSTLLISYRKQRELVTLSGINCPKGGRGGKEAEPFAEEARRFTESCVLAGREVRFEPEIEEEQDKFGRLLGYVWLDDRLLNRLLVEEGLARSATVHPPNTKFYERLRAAERRAKEAGRGIWALYEAQKQA
+
+============================================================
+COMPARISON
+============================================================
+Positions:                 149
+No-DCA vs DCA agreement:   65 (43.6%)
+No-DCA identity to 1STN:   61 (40.9%)
+DCA identity to 1STN:      41  (27.5%)
+
+Mean positional entropy: 2.426 bits
+
+Pos | 1STN | No-DCA | DCA
+----|------|--------|----
+   1 | A    | R      | E
+   2 | T    | R      | K
+   3 | S    | K      | S
+   4 | T    | E      | T
+   7 | L    | R      | A
+   8 | H    | G      | A
+   9 | K    | K      | G
+  10 | E    | L      | S
+  12 | A    | A      | G
+  13 | T    | K      | V
+  15 | I    | V      | E
+  16 | K    | R      | H
+  18 | I    | V      | R
+  19 | D    | D      | S
+  21 | D    | D      | S
+  24 | K    | R      | L
+  25 | L    | V      | I
+  26 | M    | T      | S
+  27 | Y    | F      | Y
+  28 | K    | D      | R
+  29 | G    | G      | K
+  30 | Q    | R      | Q
+  31 | P    | K      | R
+  33 | T    | R      | L
+  35 | R    | R      | T
+  37 | L    | A      | S
+  40 | D    | D      | N
+  41 | T    | A      | C
+  43 | E    | E      | K
+  44 | T    | T      | G
+  45 | K    | A      | G
+  47 | P    | P      | G
+  48 | K    | R      | G
+  49 | K    | T      | K
+  51 | V    | V      | A
+  52 | E    | Q      | E
+  54 | Y    | Y      | F
+  55 | G    | G      | A
+  60 | A    | E      | R
+  62 | T    | L      | T
+  63 | K    | R      | E
+  64 | K    | K      | S
+  65 | M    | L      | C
+  66 | V    | L      | V
+  67 | E    | P      | L
+  70 | K    | K      | R
+  73 | E    | T      | R
+  74 | V    | V      | F
+  76 | F    | F      | P
+  77 | D    | D      | E
+  78 | K    | V      | I
+  81 | R    | R      | E
+  82 | T    | R      | Q
+  84 | K    | R      | K
+  85 | Y    | Y      | F
+  90 | A    | A      | G
+  91 | Y    | T      | Y
+  93 | Y    | Y      | W
+  96 | G    | G      | D
+  97 | K    | K      | R
+  99 | V    | V      | L
+ 101 | E    | E      | R
+ 102 | A    | E      | L
+ 105 | R    | R      | E
+ 111 | V    | V      | S
+ 113 | Y    | Y      | T
+ 115 | Y    | Y      | H
+ 119 | N    | V      | T
+ 121 | H    | Y      | F
+ 122 | E    | L      | Y
+ 123 | Q    | D      | E
+ 124 | H    | E      | R
+ 130 | A    | A      | R
+ 131 | Q    | E      | R
+ 134 | K    | A      | E
+ 136 | K    | R      | G
+ 139 | I    | L      | I
+ 141 | S    | S      | A
+ 142 | E    | D      | L
+ 143 | D    | K      | Y
+ 144 | N    | P      | E
+ 145 | A    | E      | A
+ 146 | D    | A      | Q
+ 149 | Q    | E      | A
